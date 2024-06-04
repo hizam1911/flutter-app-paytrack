@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850850719464",
+    "project_id": "paytrack-349b9",
+    "storage_bucket": "paytrack-349b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850850719464:android:34f74365abeee41a134b5d",
+        "android_client_info": {
+          "package_name": "com.example.paytrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ_daJCkA5maAgx-xZR594USRU5SM1jM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
