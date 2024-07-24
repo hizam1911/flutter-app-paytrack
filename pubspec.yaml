@@ -34,32 +34,35 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  flashy_tab_bar2: ^0.0.6
+  cupertino_icons: ^1.0.8
+  flashy_tab_bar2: ^0.0.10
 #  date_time_picker: ^2.1.0
   flutter_cupertino_datetime_picker: ^3.0.0
-  firebase_core: ^2.24.2
-  firebase_analytics: ^10.8.0
-  firebase_auth: ^4.16.0
-  cloud_firestore: ^4.14.0
-  intl: ^0.17.0
-  mailer: ^6.0.1
+  firebase_core: ^3.2.0
+  firebase_analytics: ^11.2.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  intl: ^0.19.0
+  mailer: ^6.1.2
 #  flutter_local_notifications: ^16.3.2
-  firebase_messaging: ^14.7.17
-  rxdart: ^0.27.7
+  firebase_messaging: ^15.0.3
+  rxdart: ^0.28.0
   flip_card: ^0.7.0
   #local push notification
-  flutter_local_notifications: ^17.0.0
+  flutter_local_notifications: ^17.2.1+2
   quiver: ^3.2.1
   #flutter webview
-  webview_flutter: ^4.7.0
+  webview_flutter: ^4.8.0
   #pie chart
   pie_chart: ^5.4.0
-  fl_chart: ^0.67.0
+  fl_chart: ^0.68.0
   #notification handler
   permission_handler: ^11.3.1
   #password checker
-  fancy_password_field: ^2.0.6
+  fancy_password_field: ^2.0.7
+  #for Gemini
+  google_generative_ai: ^0.4.3
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
