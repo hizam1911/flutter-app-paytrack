@@ -537,7 +537,7 @@ class _AddReminderState extends State<AddReminder> {
                                 padding: EdgeInsets.only(top: 4.0),
                                 child: Text(
                                   setDateStart('${_dateTime.year}-${_dateTime.month.toString().padLeft(2, '0')}-${_dateTime.day.toString().padLeft(2, '0')}'),
-                                  style: Theme.of(context).textTheme.headline6,
+                                  style: Theme.of(context).textTheme.labelLarge,
                                 ),
                               ),
                             ],
@@ -570,7 +570,7 @@ class _AddReminderState extends State<AddReminder> {
                                 padding: EdgeInsets.only(top: 4.0),
                                 child: Text(
                                   setTimeStart('${_dateTime.hour.toString().padLeft(2, '0')}:${_dateTime.minute.toString().padLeft(2, '0')}'),
-                                  style: Theme.of(context).textTheme.headline6,
+                                  style: Theme.of(context).textTheme.labelLarge,
                                 ),
                               ),
                             ],
@@ -688,7 +688,7 @@ class _AddReminderState extends State<AddReminder> {
                               padding: EdgeInsets.only(top: 4.0),
                               child: Text(
                                 DateFormat('yyyy-MM-dd').format(DateTime.now()),
-                                style: Theme.of(context).textTheme.headline6,
+                                style: Theme.of(context).textTheme.labelLarge,
                               ),
                             ),
                           ],
@@ -1122,7 +1122,7 @@ class _UpdateReminderState extends State<UpdateReminder> {
                                 padding: EdgeInsets.only(top: 4.0),
                                 child: Text(
                                   setDateStart('${_dateTime.year}-${_dateTime.month.toString().padLeft(2, '0')}-${_dateTime.day.toString().padLeft(2, '0')}'),
-                                  style: Theme.of(context).textTheme.headline6,
+                                  style: Theme.of(context).textTheme.labelLarge,
                                 ),
                               ),
                             ],
@@ -1155,7 +1155,7 @@ class _UpdateReminderState extends State<UpdateReminder> {
                                 padding: EdgeInsets.only(top: 4.0),
                                 child: Text(
                                   setTimeStart('${_dateTime.hour.toString().padLeft(2, '0')}:${_dateTime.minute.toString().padLeft(2, '0')}'),
-                                  style: Theme.of(context).textTheme.headline6,
+                                  style: Theme.of(context).textTheme.labelLarge,
                                 ),
                               ),
                             ],
@@ -1274,7 +1274,7 @@ class _UpdateReminderState extends State<UpdateReminder> {
                               padding: EdgeInsets.only(top: 4.0),
                               child: Text(
                                 rPaidDate,
-                                style: Theme.of(context).textTheme.headline6,
+                                style: Theme.of(context).textTheme.labelLarge,
                               ),
                             ),
                           ],
@@ -1653,7 +1653,7 @@ class _UpdateStatusState extends State<UpdateStatus> {
                               padding: EdgeInsets.only(top: 4.0),
                               child: Text(
                                 setDateStart('${_dateTime.year}-${_dateTime.month.toString().padLeft(2, '0')}-${_dateTime.day.toString().padLeft(2, '0')}'),
-                                style: Theme.of(context).textTheme.headline6,
+                                style: Theme.of(context).textTheme.labelLarge,
                               ),
                             ),
                           ],
@@ -1686,7 +1686,7 @@ class _UpdateStatusState extends State<UpdateStatus> {
                               padding: EdgeInsets.only(top: 4.0),
                               child: Text(
                                 setTimeStart('${_dateTime.hour.toString().padLeft(2, '0')}:${_dateTime.minute.toString().padLeft(2, '0')}'),
-                                style: Theme.of(context).textTheme.headline6,
+                                style: Theme.of(context).textTheme.labelLarge,
                               ),
                             ),
                           ],
@@ -1802,7 +1802,7 @@ class _UpdateStatusState extends State<UpdateStatus> {
                           padding: EdgeInsets.only(top: 4.0),
                           child: Text(
                             rPaidDate,
-                            style: Theme.of(context).textTheme.headline6,
+                            style: Theme.of(context).textTheme.labelLarge,
                           ),
                         ),
                       ],

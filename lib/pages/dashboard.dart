@@ -15,6 +15,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:paytrack/services/chart_indicator.dart';
 import 'dart:async';
+import 'package:paytrack/pages/chatscreen.dart';
 
 // String webURL = "https://www.investopedia.com/articles/younginvestors/08/eight-tips.asp";
 String webURL = "https://www.google.com/";
@@ -925,6 +926,34 @@ class _MyDashboardState extends State<MyDashboard>
                               String result = await Navigator.push(
                                 context,
                                 MaterialPageRoute(builder: (context) => Profile()),
+                              );
+                              setState(() {
+                                this.refreshPage = result;
+                                loadingBool = true;
+                              });
+                            },
+                          )
+                      ),
+                      Container(
+                          height: 50,
+                          child: TextButton(
+                            child: Align(
+                              alignment: Alignment.centerLeft,
+                              child: const Text('Ask tips from Gemini (Chatbot)',
+                                style: TextStyle(color: Colors.black87),
+                              ),
+                            ),
+                            style: ButtonStyle(
+                                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                        side: BorderSide(color: Colors.black26)
+                                    )
+                                )
+                            ),
+                            onPressed: () async {
+                              String result = await Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => ChatScreen()),
                               );
                               setState(() {
                                 this.refreshPage = result;
